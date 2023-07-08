@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+    box-shadow: 15px #494949;
+    scale: 1.07;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+    box-shadow: 15px #494949;
+    scale: 1.07;
+}
+
+.logo-nav{
+    width: 95px;
+    height: 95px;
+}
