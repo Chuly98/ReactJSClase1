@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.carrito .icono img {
+    width: 50px;
+}
+
+.carrito .icono {
+    margin: 10px;
+}
+
+.carrito .quantityBubble {
+    color: black;
+    border-radius: 50%;
+    padding: 1px 5px 1px 5px;
+    right: 5px;
+    top: 45px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.75rem;
+}

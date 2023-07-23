@@ -5,7 +5,7 @@ function CardWidget() {
   return (
     <div className="carrito">
         <FontAwesomeIcon icon={faCartShopping} />
-        <span>1</span>
+        <p className="quantityBubble">1</p>
     </div>
   )
 }

@@ -1,0 +1,38 @@
+.card {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.cardTitle {
+  text-transform: uppercase;
+}
+
+.verButton {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 7px;
+  transition: 0.3s;
+}
+
+.verButton:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #888888;
+}
+
+.cardIMG img{
+  width: 250px;
+}
+
+.card:hover{
+  box-shadow: 0 10px 10px rgba(0,0,0,0.20);
+}
