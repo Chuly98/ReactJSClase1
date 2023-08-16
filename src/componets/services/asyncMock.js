@@ -3,7 +3,7 @@ const productos = [
     id: 1,
     img: "https://i.ibb.co/wwpGXpY/productos1.png",
     title: "Zapatillas Nike-Black",
-    categoryId:"nike",
+    categoryId:"Nike",
     price: 5999.99,
     stock: 10,
     description:"Zapatillas Running  "
@@ -30,7 +30,7 @@ const productos = [
     id: 4,
     img: "https://i.ibb.co/dkDvjjh/productos4.jpg",
     title: "Zapatillas Adidas-Blancas",
-    categoryId:"Adidas",
+    categoryId:"adidas",
     price: 8949.99,
     stock: 8,
     description:"Zapatillas Adidas  "
@@ -39,7 +39,7 @@ const productos = [
     id: 5,
     img: "https://i.ibb.co/xJthht9/productos5.jpg",
     title: "Zapatillas Adidas-Running Rosa",
-    categoryId:"Adidas",
+    categoryId:"adidas",
     price: 4999.99,
     stock: 3,
     description:"Zapatillas Running Mujer "
@@ -48,7 +48,7 @@ const productos = [
     id: 6,
     img: "https://i.ibb.co/WFVL7Mw/productos6.jpg",
     title: "Zapatillas Adidas-Running Black",
-    categoryId:"Adidas",
+    categoryId:"adidas",
     price: 7699.99,
     stock: 15,
     description:"Running Unisex  "
@@ -57,7 +57,7 @@ const productos = [
     id: 7,
     img: "https://i.ibb.co/rb4wp7S/productos7.png",
     title: "Zapatillas Puma-Marrones",
-    categoryId:"Puma",
+    categoryId:"puma",
     price: 9299.99,
     stock: 6,
     description:"Zapatillas Para Mujer "
@@ -66,7 +66,7 @@ const productos = [
     id: 8,
     img: "https://i.ibb.co/cNNR26m/productos8.png",
     title: "Zapatillas Puma-Running",
-    categoryId:"Puma",
+    categoryId:"puma",
     price: 4699.99,
     stock: 12,
     description:"Running Para Hombres "
@@ -75,7 +75,7 @@ const productos = [
     id: 9,
     img: "https://i.ibb.co/PQg6NqJ/productos9.png",
     title: "Zapatillas Puma-Running Blancas",
-    categoryId:"Puma",
+    categoryId:"puma",
     price: 6829.99,
     stock: 20,
     description:"Zapatillas Unisex "
@@ -84,7 +84,7 @@ const productos = [
     id: 10,
     img: "https://i.ibb.co/TRhsFZ9/productos10.jpg",
     title: "Zapatillas NewBalance-New",
-    categoryId:"NewBalance",
+    categoryId:"newbalance",
     price: 7599.99,
     stock: 4,
     description:"Running Unisex "
@@ -93,7 +93,7 @@ const productos = [
     id: 11,
     img: "https://i.ibb.co/C76JrWw/productos11.jpg",
     title: "Zapatillas NewBalance-Azul",
-    categoryId:"NewBalance",
+    categoryId:"newbalance",
     price: 8399.99,
     stock: 10,
     description:"Zapatillas Para Hombres "
@@ -102,7 +102,7 @@ const productos = [
     id: 12,
     img: "https://i.ibb.co/Qdt10vd/productos12.jpg",
     title: "Zapatillas NewBalance",
-    categoryId:"NewBalance",
+    categoryId:"newbalance",
     price: 9199.99,
     stock: 10,
     description:"Zapatillas Mujer "
@@ -113,7 +113,7 @@ const productos = [
           setTimeout(() => {
             const date = new Date().toLocaleDateString;
             resolve(productos, date);
-          },200);
+          },2000);
         });
       }
       
@@ -139,7 +139,7 @@ const productos = [
       
           setTimeout(() => {
             resolve(userCategory);
-          },200);
+          },1000);
         });
       }
       

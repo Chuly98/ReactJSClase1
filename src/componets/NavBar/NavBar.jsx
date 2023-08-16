@@ -18,7 +18,7 @@ function NavBar() {
                             <Link className="nav-link " to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/category/nike">Nike</Link>
+                            <Link className="nav-link" to="/category/Nike">Nike</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/category/adidas">Adidas</Link>

@@ -1,4 +1,4 @@
-import { getProduct } from "../services/asyncMock";
+import { getProduct } from "../services/firebase";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "../ItemDetail/ItemDetail";
@@ -14,7 +14,7 @@ function ItemDetailContainer() {
     useEffect(() => {
         productsRequest();
     }, []);
-
+    
     return (
         <ItemDetail products={products} />
     )
